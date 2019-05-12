@@ -19,6 +19,14 @@ sprite-extractor --sheet input.png --data input.json
 npm install -g sprite-extractor
 ```
 
+## Install GraphicsMagick or ImageMagick
+```
+sudo add-apt-repository ppa:dhor/myway
+sudo apt-get update
+sudo apt-get install graphicsmagick
+sudo apt-get install imagemagick
+```
+
 ## Change log
 
 **0.0.2**
@@ -29,4 +37,3 @@ npm install -g sprite-extractor
 **0.0.1**
 
     * Initial commit
-
